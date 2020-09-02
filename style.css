@@ -42,3 +42,42 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/***************BASE STYLE**********************/
+body{
+	color: white;
+	font-family: "Helvetica Nue",arial, sans-serif;
+	font-size: 15px;
+}
+.wrapper{
+	width: 1120px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/***************HEADER STYLE********************/
+.page-header{
+	height: 66px;
+	display: block;
+	font-size: 14px;
+	background-color: rgba(0,0,0,0.8);
+}
+.page-header .logo{
+	float: left;
+	padding-top: 23px;
+	box-sizing: border-box;
+}
+.main-nav{
+	float: right;
+}
+.main-nav li{
+	float: left;
+	text-transform: capitalize;
+	padding-top: 23px;
+	margin-left: 90px;
+}
+.main-nav li a{
+	color: #ffff;
+	text-decoration: none;
+
+}
