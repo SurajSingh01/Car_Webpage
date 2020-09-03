@@ -179,3 +179,64 @@ h2::after{
 	margin-top: 25px;
 	margin-bottom: 28px;
 }
+
+/*********************FOOTER*********************************/
+.page-footer{
+	background: #111111;
+	padding-top: 28px;
+}
+.footer-col{
+	float: left;
+	width: 25%
+}
+.page-footer>.wrapper::after{
+	content: '.';
+	font-size: 0;
+	height: 1px;
+	width: 100%;
+	display: block;
+	clear: both;
+
+}
+.page-footer h3{
+	font-family: DejaVu Sans;
+	font-weight: 300;
+	font-size: 13px;
+}
+.page-footer h3::after{
+	content: '.';
+	font-size: 0;
+	display: block;
+	height: 1px;
+	width: 90%;
+	background: #292929;
+	margin: 15px 0;
+}
+.page-footer li{
+	font-size: 13px;
+	text-decoration: none;
+	color: #999;
+	line-height: 1.6;
+	color: #ffff;
+}
+.page-footer li a {
+	color: #585858;
+	text-decoration: none;
+}
+.copy{
+	color: #585858;
+	margin-top: 32px;
+}
+.social a{
+	display: block;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 44px;
+}
+.social li{
+	display: inline-block;
+}
